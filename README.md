@@ -1,6 +1,6 @@
 # Kustomize GitHub Actions
 
-The main purpose of this action is updating the [GitOps](https://www.gitops.tech/) repository and rollout the new image changes to the respective environments. As the underline technology `[Kustomize](https://kustomize.io/)` which is the Kubernetes native configuration management tool is used. Idea was to have a pipeline in the GitOps manifest repository, triggers based on an event such as completion of `CI` workflow.
+The main purpose of this action is updating the [GitOps](https://www.gitops.tech/) repository and rollout the new image changes to the respective environments. As the underline technology `Kustomize` which is the Kubernetes native configuration management tool is used. Idea was to have a pipeline in the GitOps manifest repository, triggers based on an event such as completion of `CI` workflow.
 
 This action will set the new image and perform a commit to the repository. Each usage of this action will have it's own commit in the git history.
 
